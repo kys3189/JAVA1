@@ -30,8 +30,7 @@ public class CastingTask2 {
 		
 		double dA = Double.parseDouble(strA);
 		double dB = Double.parseDouble(strB);
-		double dC = Double.parseDouble(
-				strC);
+		double dC = Double.parseDouble(strC);
 		
 		int iA = (int)dA;
 		int iB = (int)dB;
