@@ -11,7 +11,7 @@ public class DoWhileTest {
 		
 		do {
 			System.out.println("실행 여부");
-		}while(choice != 0);
+		}while(choice != 123);
 	
 	}
 	
