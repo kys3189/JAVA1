@@ -5,19 +5,13 @@ import java.util.Scanner;
 public class ArrarTask2_2 {
 
 	public static void main(String[] args) {
-		
-//      힌트 배열의 '열'은 나열
-	      
-//      chatGPT X 검색 X
-//      .charAt()
-//      단 문자열의 메서드는 사용하지 않는다.
       
 //      1) 사용자에게 입력받은 문자열 중 소문자는 모두 대문자로
 //      대문자는 모두 소문자로 변경한다.
 //      
 //      입력 예) 안녕hI!!
 //      출력 예) 안녕Hi!!
-      Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 //      String input = null, message = "대소문자를 바꿀 문자열을 입력하세요.", result = "";
 //      char[] arr1 = null;
 //      int count = 0, gap = 32;
@@ -94,8 +88,11 @@ public class ArrarTask2_2 {
 //          찾을 문자 : c
 //          c의 개수 3개
 
-      String input3 = null, message3 = "전체 문장을 입력해주세요.",
-            message4 = "찾을 문자 1개를 입력하세요.\nex)e", result3 = "";
+      String input3 = null,
+    		 message3 = "전체 문장을 입력해주세요.",
+    		 message4 = "찾을 문자 1개를 입력하세요.\nex)e",
+    		 result3 = "";
+      
       char find = ' ';
       char[] arr3 = null;
       int count3 = 0, foundCount = 0;

@@ -1,5 +1,4 @@
 package methodTask;
-
 public class MethodTask3 {
 	
 	public void numSub(int num1, int num2, int num3) {
@@ -8,7 +7,7 @@ public class MethodTask3 {
 		System.out.println("세 정수를 뺸 값 : " + i);
 	}
 	
-	//int[]타입도 출력가능
+		//int[]타입도 출력가능
 	int[] numDivid(int num1, int num2) {
 		int[] numArr = new int[2];
 		numArr[0] = num1 / num2;
