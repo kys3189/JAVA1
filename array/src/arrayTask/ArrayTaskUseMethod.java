@@ -20,7 +20,7 @@ public class ArrayTaskUseMethod {
 //		String userInput = null,
 //				message = "입력한 값 : ",
 //				message1 = "대소문자를 변환한 값 : ",
-//				result = null;
+//				result = "";
 //		
 //		userInput = sc.nextLine();
 //		length = userInput.length();
@@ -31,9 +31,11 @@ public class ArrayTaskUseMethod {
 //		for (int i = 0; i < length; i++) {
 //			inputText[i] = userInput.charAt(i);
 //			if (inputText[i] >= 65 && inputText[i] <= 90) {
-//				result += (inputText[i] += 32);
+//				result += inputText[i] += 32;
 //			}else if (inputText[i] >= 97 && inputText[i] <= 122) {
-//				result += (inputText[i] -= 32);
+//				result += inputText[i] -= 32;
+//			}else {
+//				result += inputText[i];
 //			}
 //		}
 //		

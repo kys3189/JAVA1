@@ -7,7 +7,7 @@ public class MethodTask4 {
 	
 	void textCounter(String str, char c) {
 		int count = 0,
-				num = 0;
+			num = 0;
 		char[] text = null;
 		String message = "입력받은 문자의 갯수 : ";
 		
@@ -45,8 +45,8 @@ public class MethodTask4 {
 		char[] changText = null;
 		char[] numArr = null;
 		String message = "입력한 한글 : ",
-					message1 = "변환한 숫자 : ",
-						result = "";
+				message1 = "변환한 숫자 : ",
+				result = "";
 		
 		num = str.length();
 		changText = new char[num];
@@ -114,9 +114,9 @@ public class MethodTask4 {
 //  4) 5개의 정수를 입력받고 최댓값과 최솟값을 구해 값을 반환해주는 메소드
 	void fiveNumBS(int[] num) {
 		int numDefault = 0,
-					length = 0;
+			length = 0;
 		String message = "입력한 값의 최대값 : ",
-					message1 = "입력한 값의 최소값 : ";
+				message1 = "입력한 값의 최소값 : ";
 		
 		length = num.length;
 		numDefault = num[0];
@@ -175,9 +175,9 @@ public class MethodTask4 {
 	void myIndexOf(String str, char c) {
 		char[] text = null;
 		String message = "검색한 문자의 위치 : ",
-					message1 = "입력한 문자열 : ",
-						message2 = "검색한 문자 : ",
-							result = "";
+				message1 = "입력한 문자열 : ",
+				message2 = "검색한 문자 : ",
+				result = "";
 		
 		text = new char[str.length()];		
 		
