@@ -23,9 +23,15 @@ public class CastingTask1 {
 	
 	public static void main(String[] args) {
 		
+		//클래스명 ct = Heap 영역에 메모리를 할당하고 초기값을 초기화, 해당클래스의 필드를 메모리에 생성하고 부여된 주소값을 호출
+		//이걸 뭐라한다? 객체화
 		CastingTask1 ct = new CastingTask1();
+		//클래스명 dr = Heap 영역에 메모리를 할당하고 값을 초기화, 해당클래스의 영역을 메모리에 부여하고 주소값을 호출
 		Drama dr = new Drama();
+		//클래스명 ct의 멤버에 접근할 수 있게 해주는 연산자, 멤버메서드 체크비디오(값)
 		ct.checkVideo(dr);
+		//클래스명 ct의 멤버에 접근할 수 있게 해주는 연산자,값은?
+		//힙영역에 메모리를 할당하고 값을 초기화, 그리고 클래스영역을 메모리에 부여하고 주소값을 호출;
 		ct.checkVideo(new Animaition());
 		ct.checkVideo(new Movie());
 		
