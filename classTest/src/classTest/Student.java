@@ -28,6 +28,7 @@ public class Student {
 	
 	public static void main(String[] args) {
 		
+		
 		Student 김영수 = new Student(1, "김영수", 63, 84, 55);
 		System.out.println("학점의 평균 : " + 김영수.average);
 		
