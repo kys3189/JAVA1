@@ -1,11 +1,14 @@
 package lotto;
 
 public class Lotto {
+	//스트링 배멸을 리턴하는 메서드
 	public String[] getLuckNumber() {
+		//스트링 배열 6칸 생성
 		String[] luckyNumberArray = new String[6];
-		
+		//배열만큼 돌리고
 		for (int i = 0; i < 6; i++) {
-			luckyNumberArray[i] = String.valueOf(((int)Math.floor((Math.random() * 45 + 1))));
+			// i 번째 값에 
+			luckyNumberArray[i] = String.valueOf((int)Math.floor((Math.random() * 45 + 1)));
 			for (int j = 0; j < i; j++) {
 				if (luckyNumberArray[j].equals(luckyNumberArray[i])) {
 					i--;
