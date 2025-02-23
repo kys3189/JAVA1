@@ -56,7 +56,7 @@ public class Client {
          ){
          System.out.println("서버와 연결이 되었습니다.");
          
-//         서버로부터 메세지를 처리하는 스레드
+//       서버로부터 메세지를 처리하는 스레드
          ClientThread clientThread = new ClientThread(input);
          clientThread.start();
          

@@ -20,9 +20,10 @@ public class Client02 {
 		String serverIp = "localhost";
 		
 		try {
+//			소켓에 주소와 포트번호를 입력하여 연결
 			clientSocket = new Socket(serverIp, 7777);
 			System.out.println("서버와 연결되었습니다.");
-			
+//			인아웃 받고
 			in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 			out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
 			
