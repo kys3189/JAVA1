@@ -13,14 +13,15 @@ public class Client {
 	public static void main(String[] args) throws IOException {
 		
 		Socket socket = null;
-		BufferedWriter out = null;
 		BufferedReader in = null;
+		BufferedWriter out = null;
 		Scanner sc = new Scanner(System.in);
 		String inMessage = null;
 		String outMessage = null;
 		
 		try {
-			socket = new Socket("localhost", 1111);
+			
+			socket = new Socket("localhost", 2222);
 			System.out.println("서버에 연결되었습니다");
 			
 			in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
